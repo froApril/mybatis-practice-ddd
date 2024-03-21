@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xyf-dev-tech-infastructure" />
+        <module name="xyf-dev-tech-domain" />
+        <module name="xyf-dev-tech-app" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xyf-dev-tech-app" options="-parameters" />
+      <module name="xyf-dev-tech-domain" options="-parameters" />
+      <module name="xyf-dev-tech-infastructure" options="-parameters" />
+      <module name="xyf-dev-tech-mybatis" options="-parameters" />
+    </option>
+  </component>
+</project>

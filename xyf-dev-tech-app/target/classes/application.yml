@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: xyf-dev-tech-mybatis
+  profiles:
+    active: dev

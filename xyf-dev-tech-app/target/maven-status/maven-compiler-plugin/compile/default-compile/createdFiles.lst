@@ -1,0 +1,4 @@
+xyf\tech\Application.class
+xyf\tech\config\TransactionManagerAutoConfiguation.class
+xyf\tech\config\PluginAutoConfiguration.class
+xyf\tech\plugin\FieldEncryptionAndDecryptionMyBatisPlugin.class
